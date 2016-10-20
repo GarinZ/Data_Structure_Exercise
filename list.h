@@ -10,11 +10,13 @@
  */
 #define MAXSIZE 20
 
-typedef charhu ElemType;
+typedef char ElemType;
+
 typedef struct{
     ElemType data[MAXSIZE];
     int length;
 }SqList;
+
 
 #define OK 1
 #define ERROR 0

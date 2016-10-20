@@ -6,6 +6,6 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 set(SOURCE_FILES
     list.c
     list.h
-    main.c)
+    main.c link_list.c link_list.h)
 
 add_executable(Data_Structure_Exercise ${SOURCE_FILES})
